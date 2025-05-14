@@ -1,0 +1,43 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "pregunta",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "name": "PreguntasIntent",
+          "samples": [
+            "hazme una pregunta sobre briones",
+            "Necesito saber {pregunta}",
+            "Contesta {pregunta}",
+            "Responde a {pregunta}",
+            "Quiero saber {pregunta}",
+            "Dime {pregunta}"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "preguntas briones"
+    }
+  }
+}
